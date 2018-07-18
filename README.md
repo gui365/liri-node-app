@@ -49,6 +49,8 @@ This application consists of 5 basic commands:
   **5. post-tweet command** (e.g. npm run post *LIRI is amazing!*)
      This command also uses the twitter npm package. It creates a new tweet and posts it to the user's wall.
 
+Run *npm start* or *node liri.js* to show a welcome message and list of commands.
+
 ## Objective
 * To find, research and implement npm packages.
 * To install npm packages and save them to the package.JSON file.
