@@ -22,22 +22,22 @@ function runCommand(command){
   
   if (command === undefined) {
     console.log(`
-    =============================================================================
-    |              How can I help you today? Here is what I can do:             |
-    =============================================================================
+    ===================================================================================
+    |                How can I help you today? Here is what I can do:                 |
+    ===================================================================================
       Command                  Action                             npm run _____
-    -----------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------
       my-tweets            ->  Show your last 20 tweets       ->  tweets
       
-      spotify-this-song    ->  Add a song name after this     ->  song _______
+      spotify-this-song    ->  Add a song name after this     ->  song <name of song>
                                command and get its info
 
-      movie-this           ->  Add a movie name after this    ->  movie _______
+      movie-this           ->  Add a movie name after this    ->  movie <name of movie>
                                command and get its info
 
       do-what-it-says      ->  A random action. Surprise!     ->  random
       
-      post-tweet           ->  Post a tweet to your account.  ->  post _______
+      post-tweet           ->  Post a tweet to your account.  ->  post <tweet>
                                Write your tweet after the
                                command
     `);  
