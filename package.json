@@ -1,0 +1,33 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node liri.js",
+    "tweets": "node liri.js my-tweets",
+    "movie": "node liri.js movie-this",
+    "song": "node liri.js spotify-this-song",
+    "random": "node liri.js do-what-it-says",
+    "post": "node liri.js post-tweet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gui365/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gui365/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/gui365/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "inquirer": "^6.0.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.87.0",
+    "twitter": "^1.7.1"
+  }
+}
